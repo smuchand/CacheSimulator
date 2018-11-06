@@ -1,6 +1,10 @@
-README for the Cache Simulator. 
-This simulates both split and unified caches with configurable associativity, cache-size and block-size. This cache simulator is trace-based and hence a memory access trace file should be parsed as an input parameter along with the cache configurations. The trace file has to be as below format. 
-It should have two fields: Access Type and Address.
+--------------------------------------------------README for the Cache Simulator-----------------------------------------------------------
+
+
+
+This cache simulator can simulate both split and unified caches with configurable associativity, cache-size and block-size. This is trace-based and hence a memory access trace file should be parsed as an input parameter along with the cache configurations. The trace file has to be in below format.
+
+It should have two fields: 'Access Type' and 'Address'.
 2 0                           #This is an instruction fetch at hex address 0.
 0 1000                        #This is a data read at hex address 1000.
 1 70f60888		      #This is a data write at hex address 70f60888.
